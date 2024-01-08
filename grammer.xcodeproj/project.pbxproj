@@ -14,6 +14,12 @@
 		FB74C2302B46E15700733C81 /* grammerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C22F2B46E15700733C81 /* grammerTests.swift */; };
 		FB74C23A2B46E15700733C81 /* grammerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C2392B46E15700733C81 /* grammerUITests.swift */; };
 		FB74C23C2B46E15700733C81 /* grammerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C23B2B46E15700733C81 /* grammerUITestsLaunchTests.swift */; };
+		FB74C2492B46E4D200733C81 /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C2482B46E4D200733C81 /* VariableType.swift */; };
+		FB74C24B2B46E8CC00733C81 /* MyCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C24A2B46E8CC00733C81 /* MyCollections.swift */; };
+		FBBCFF9A2B4C2A0E009FFD52 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF992B4C2A0E009FFD52 /* Condition.swift */; };
+		FBBCFF9C2B4C2D1D009FFD52 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */; };
+		FBBCFF9E2B4C2FDB009FFD52 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */; };
+		FBBCFFA02B4C3328009FFD52 /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9F2B4C3328009FFD52 /* Half.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		FB74C2352B46E15700733C81 /* grammerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grammerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB74C2392B46E15700733C81 /* grammerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grammerUITests.swift; sourceTree = "<group>"; };
 		FB74C23B2B46E15700733C81 /* grammerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grammerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB74C2482B46E4D200733C81 /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
+		FB74C24A2B46E8CC00733C81 /* MyCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollections.swift; sourceTree = "<group>"; };
+		FBBCFF992B4C2A0E009FFD52 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		FBBCFF9F2B4C3328009FFD52 /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				FB74C2212B46E15700733C81 /* Assets.xcassets */,
 				FB74C2232B46E15700733C81 /* grammer.entitlements */,
 				FB74C2242B46E15700733C81 /* Preview Content */,
+				FB74C2482B46E4D200733C81 /* VariableType.swift */,
+				FB74C24A2B46E8CC00733C81 /* MyCollections.swift */,
+				FBBCFF992B4C2A0E009FFD52 /* Condition.swift */,
+				FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */,
+				FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */,
+				FBBCFF9F2B4C3328009FFD52 /* Half.swift */,
 			);
 			path = grammer;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBCFFA02B4C3328009FFD52 /* Half.swift in Sources */,
+				FB74C2492B46E4D200733C81 /* VariableType.swift in Sources */,
 				FB74C2202B46E15600733C81 /* ContentView.swift in Sources */,
+				FBBCFF9E2B4C2FDB009FFD52 /* Function.swift in Sources */,
 				FB74C21E2B46E15600733C81 /* grammerApp.swift in Sources */,
+				FBBCFF9C2B4C2D1D009FFD52 /* Loop.swift in Sources */,
+				FB74C24B2B46E8CC00733C81 /* MyCollections.swift in Sources */,
+				FBBCFF9A2B4C2A0E009FFD52 /* Condition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
