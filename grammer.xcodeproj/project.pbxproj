@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3BFD252B4D112600DF67FF /* Diffclassstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFD242B4D112600DF67FF /* Diffclassstruct.swift */; };
+		FB3BFD2B2B4D1A3100DF67FF /* enumChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFD2A2B4D1A3100DF67FF /* enumChoice.swift */; };
+		FB3BFD2D2B4D1E3E00DF67FF /* SwitchPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFD2C2B4D1E3E00DF67FF /* SwitchPractice.swift */; };
+		FB3BFD2F2B4D28B900DF67FF /* optionalPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFD2E2B4D28B900DF67FF /* optionalPractice.swift */; };
 		FB74C21E2B46E15600733C81 /* grammerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C21D2B46E15600733C81 /* grammerApp.swift */; };
 		FB74C2202B46E15600733C81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74C21F2B46E15600733C81 /* ContentView.swift */; };
 		FB74C2222B46E15700733C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB74C2212B46E15700733C81 /* Assets.xcassets */; };
@@ -20,6 +24,7 @@
 		FBBCFF9C2B4C2D1D009FFD52 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */; };
 		FBBCFF9E2B4C2FDB009FFD52 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */; };
 		FBBCFFA02B4C3328009FFD52 /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFF9F2B4C3328009FFD52 /* Half.swift */; };
+		FBBCFFA22B4C3AF3009FFD52 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFFA12B4C3AF3009FFD52 /* Elevator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB3BFD242B4D112600DF67FF /* Diffclassstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffclassstruct.swift; sourceTree = "<group>"; };
+		FB3BFD2A2B4D1A3100DF67FF /* enumChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumChoice.swift; sourceTree = "<group>"; };
+		FB3BFD2C2B4D1E3E00DF67FF /* SwitchPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPractice.swift; sourceTree = "<group>"; };
+		FB3BFD2E2B4D28B900DF67FF /* optionalPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionalPractice.swift; sourceTree = "<group>"; };
 		FB74C21A2B46E15600733C81 /* grammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB74C21D2B46E15600733C81 /* grammerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grammerApp.swift; sourceTree = "<group>"; };
 		FB74C21F2B46E15600733C81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 		FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		FBBCFF9F2B4C3328009FFD52 /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
+		FBBCFFA12B4C3AF3009FFD52 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,11 @@
 				FBBCFF9B2B4C2D1D009FFD52 /* Loop.swift */,
 				FBBCFF9D2B4C2FDB009FFD52 /* Function.swift */,
 				FBBCFF9F2B4C3328009FFD52 /* Half.swift */,
+				FBBCFFA12B4C3AF3009FFD52 /* Elevator.swift */,
+				FB3BFD242B4D112600DF67FF /* Diffclassstruct.swift */,
+				FB3BFD2A2B4D1A3100DF67FF /* enumChoice.swift */,
+				FB3BFD2C2B4D1E3E00DF67FF /* SwitchPractice.swift */,
+				FB3BFD2E2B4D28B900DF67FF /* optionalPractice.swift */,
 			);
 			path = grammer;
 			sourceTree = "<group>";
@@ -277,14 +292,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3BFD252B4D112600DF67FF /* Diffclassstruct.swift in Sources */,
 				FBBCFFA02B4C3328009FFD52 /* Half.swift in Sources */,
 				FB74C2492B46E4D200733C81 /* VariableType.swift in Sources */,
 				FB74C2202B46E15600733C81 /* ContentView.swift in Sources */,
 				FBBCFF9E2B4C2FDB009FFD52 /* Function.swift in Sources */,
 				FB74C21E2B46E15600733C81 /* grammerApp.swift in Sources */,
+				FB3BFD2B2B4D1A3100DF67FF /* enumChoice.swift in Sources */,
 				FBBCFF9C2B4C2D1D009FFD52 /* Loop.swift in Sources */,
+				FB3BFD2D2B4D1E3E00DF67FF /* SwitchPractice.swift in Sources */,
 				FB74C24B2B46E8CC00733C81 /* MyCollections.swift in Sources */,
+				FB3BFD2F2B4D28B900DF67FF /* optionalPractice.swift in Sources */,
 				FBBCFF9A2B4C2A0E009FFD52 /* Condition.swift in Sources */,
+				FBBCFFA22B4C3AF3009FFD52 /* Elevator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

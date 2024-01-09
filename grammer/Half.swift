@@ -16,7 +16,7 @@ struct Half: View {
             List {
                 ForEach(names,id: \.self){name in
                     if name=="dongkyung"{
-                        var welcome = sayHi(to: name)
+                        let welcome = sayHi(to: name)
                         Text(welcome)
                     }else{
                         Text(name)

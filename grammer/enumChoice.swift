@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct enumChoice: View {
+    
+    var direction : Direction = .east
+    var member : Member = .paul
+    var menu : Restaurant = .pasta
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("방향은 \(direction.rawValue) 입니다")
+        Text("name is \(member.rawValue)")
+        Text("food is \(menu.rawValue)")
     }
+}
+
+enum Member : String {
+    case leeo = "leeo", dongkyung = "dongkyung", paul = "paul", koko = "koko"
+}
+
+enum Restaurant : String{
+    case pasta = "pasta"
+    case raman = "raman"
+}
+
+enum Direction : String{
+    case north = "북"
+    case west = "서"
+    case east = "동"
+    case south = "남"
 }
 
 #Preview {
